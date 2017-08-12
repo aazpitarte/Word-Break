@@ -86,28 +86,4 @@ TEST_CASE("valid input") {
 	REQUIRE( word_break( fox, dict ) == true );
 }
 
-/*
-int main() {
-	
-	set<string> test;
-	string input = "mypoopoo";
-	
-	test.insert("eat");
-	test.insert("my");
-	test.insert("poopoo");
-	test.insert("ayy");
-	
-	cout << word_break( input, test ) << endl;
-	cout << input << endl;
-	cout << string::npos << endl;
-	
-
-
-	string dum = "thisWORD";
-	
-	
-
-}
-*/
-
 
