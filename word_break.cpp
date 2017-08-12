@@ -85,5 +85,3 @@ TEST_CASE("valid input") {
 	REQUIRE( word_break( up_case, dict ) == true );
 	REQUIRE( word_break( fox, dict ) == true );
 }
-
-
